@@ -26,7 +26,7 @@ public class Question1_1 {
 			unique = false;
 		} else {
 			for(int i = 0; i < s.length(); i++) {
-				int offset = s.charAt(i) - '\u0000';
+				int offset = s.charAt(i);
 				if(c[offset]) {
 					unique = false;
 					break;
