@@ -17,25 +17,23 @@ public class Question1_1 {
 	}
 
 	public boolean hasUniqueCharacters(String s) {
-		boolean unique = false;
+
 		if(s == null || s.length() == 0) {
 			throw new IllegalArgumentException("Input cannot be null or size zero.");
 		} else if (s.length() == 1) {
-            unique = true;
+            return true;
         } else if (s.length() > c.length) {
-			unique = false;
+			return false;
 		} else {
 			for(int i = 0; i < s.length(); i++) {
 				int offset = s.charAt(i);
 				if(c[offset]) {
-					unique = false;
-					break;
+					return false;
 				} else {
 					c[offset] = true;
-                    unique = true;
 				} 	
 			}			
 		}
-		return unique;
+		return true;
 	}
 }
