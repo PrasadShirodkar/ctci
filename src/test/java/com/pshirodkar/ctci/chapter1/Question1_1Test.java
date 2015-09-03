@@ -1,4 +1,4 @@
-package com.pshirodkar.ctci.chapter;
+package com.pshirodkar.ctci.chapter1;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.annotations.BeforeMethod;

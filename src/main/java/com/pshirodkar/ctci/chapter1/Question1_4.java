@@ -1,4 +1,4 @@
-package com.pshirodkar.ctci.chapter;
+package com.pshirodkar.ctci.chapter1;
 
 /**
  * Solution to Question 1.4
